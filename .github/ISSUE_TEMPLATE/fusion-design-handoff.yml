@@ -1,0 +1,27 @@
+---
+name: Fusion design handoff
+description: Share a Fusion/CAD task, note, or review request
+title: "[Fusion] "
+labels: [cad-task]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Public repo: do not include proprietary dimensions, customer details, secrets, or private vendor files.
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+      description: What should be designed, changed, checked, or decided?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context / constraints
+      description: Include non-sensitive constraints and references.
+  - type: textarea
+    id: decision
+    attributes:
+      label: Decision or output needed
+      description: What response, file, or verification is needed?
