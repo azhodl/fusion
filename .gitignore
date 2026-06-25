@@ -1,0 +1,23 @@
+# Keep bulky/proprietary CAD exports out of public git by default
+exports/*
+!exports/.gitkeep
+*.f3d
+*.f3z
+*.step
+*.stp
+*.iges
+*.igs
+*.dxf
+*.dwg
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.mp4
+*.mov
+
+# Local/editor files
+.DS_Store
+*.swp
+.env
